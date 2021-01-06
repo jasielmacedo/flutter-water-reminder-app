@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:myhelloworld/manager/AppDataManager.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_water_reminder_app/manager/DataManager.dart';
 
 class GoalPage extends StatefulWidget {
   @override
@@ -13,8 +13,8 @@ class _GoalPageState extends State<GoalPage> {
   @override
   void initState() {
     super.initState();
-    txtGoal.value = TextEditingValue(
-        text: AppDataManager.instance.userCurrentGoal.toString());
+    txtGoal.value =
+        TextEditingValue(text: DataManager.instance.userCurrentGoal.toString());
   }
 
   @override
@@ -82,7 +82,7 @@ class _GoalPageState extends State<GoalPage> {
     final int iParseGoal = int.parse(val);
     if (iParseGoal == null || iParseGoal <= 0) return;
 
-    AppDataManager.instance.setUserData(goal: iParseGoal);
+    DataManager.instance.setUserData(goal: iParseGoal);
 
     Navigator.of(context).pushNamedAndRemoveUntil("/", (route) => false);
   }

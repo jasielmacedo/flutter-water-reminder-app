@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:myhelloworld/pages/GoalPage.dart';
-import 'package:myhelloworld/pages/HomePage.dart';
-import 'package:myhelloworld/pages/SplashPage.dart';
+import 'package:flutter_water_reminder_app/pages/GoalPage.dart';
+import 'package:flutter_water_reminder_app/pages/HomePage.dart';
+import 'package:flutter_water_reminder_app/pages/SplashPage.dart';
 
 class RouteGenerator {
   static bool _splashOnce = false;

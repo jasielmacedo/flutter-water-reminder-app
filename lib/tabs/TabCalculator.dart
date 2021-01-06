@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:myhelloworld/manager/AppDataManager.dart';
+import 'package:flutter_water_reminder_app/manager/DataManager.dart';
 
 class TabCalculator extends StatefulWidget {
   @override
@@ -98,7 +98,7 @@ class _TabCalculatorState extends State<TabCalculator> {
 
   void _onClickSetNewGoal() {
     if (this._userShouldDrink != null && this._userShouldDrink > 0) {
-      AppDataManager.instance.setUserData(goal: this._userShouldDrink.toInt());
+      DataManager.instance.setUserData(goal: this._userShouldDrink.toInt());
       Navigator.of(context)
           .pushNamedAndRemoveUntil('/', (route) => false, arguments: 0);
     }
