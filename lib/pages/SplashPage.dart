@@ -40,7 +40,7 @@ class _SplashScreenState extends State<SplashScreen> {
               child: Container(
                 height: 150,
                 child: SvgPicture.asset(
-                  'assets/images/waterlogo.svg',
+                  'assets/images/applogo.svg',
                   height: 150,
                   width: 150,
                 ),

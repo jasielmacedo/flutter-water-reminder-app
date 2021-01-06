@@ -38,7 +38,7 @@ class _TabHomeState extends State<TabHome> {
                   crossAxisAlignment: WrapCrossAlignment.center,
                   children: [
                     SvgPicture.asset(
-                      'assets/images/waterlogo.svg',
+                      'assets/images/applogo.svg',
                       width: 40,
                     ),
                     SizedBox(width: 10),
@@ -156,11 +156,11 @@ class _TabHomeState extends State<TabHome> {
                 children: [
                   (DataManager.instance.cupsAvailable[index].mililiters >= 500
                       ? SvgPicture.asset(
-                          'assets/images/sport.svg',
+                          'assets/images/water-bottle-sport.svg',
                           width: 32,
                         )
                       : SvgPicture.asset(
-                          'assets/images/water.svg',
+                          'assets/images/water-bottle-glass.svg',
                           width: 32,
                         )),
                   SizedBox(

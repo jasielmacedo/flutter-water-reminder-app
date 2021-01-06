@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_water_reminder_app/animations/AnimSlideRightRoute.dart';
 import 'package:flutter_water_reminder_app/pages/GoalPage.dart';
 import 'package:flutter_water_reminder_app/pages/HomePage.dart';
 import 'package:flutter_water_reminder_app/pages/SplashPage.dart';
@@ -22,7 +23,8 @@ class RouteGenerator {
         }
         break;
       case "/goal":
-        return MaterialPageRoute(builder: (_) => GoalPage());
+        // appling animation transition
+        return AnimSlideFromRightRoute(page: GoalPage());
         break;
     }
 
