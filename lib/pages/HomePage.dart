@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:myhelloworld/tabs/TabCalculator.dart';
-import 'package:myhelloworld/tabs/TabHome.dart';
-import 'package:myhelloworld/tabs/TabReminder.dart';
+import 'package:flutter_water_reminder_app/tabs/TabCalculator.dart';
+import 'package:flutter_water_reminder_app/tabs/TabHome.dart';
+import 'package:flutter_water_reminder_app/tabs/TabReminder.dart';
 
 class HomePage extends StatefulWidget {
   final int initialTab;

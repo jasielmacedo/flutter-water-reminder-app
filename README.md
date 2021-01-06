@@ -1,12 +1,13 @@
-# flutter_water_reminder_app
+# flutter water reminder app
 
-A new Flutter project.
+A simple replication version of the water reminder app using flutter.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+You need to install flutter to run this application.
 
-A few resources to get you started if this is your first Flutter project:
+Flutter: 1.22+
+Dart: 2.12+
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
