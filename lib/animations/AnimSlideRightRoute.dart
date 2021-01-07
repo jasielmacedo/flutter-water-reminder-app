@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class AnimSlideRightRoute extends PageRouteBuilder {
+class AnimSlideFromRightRoute extends PageRouteBuilder {
   final Widget page;
 
-  AnimSlideRightRoute({this.page})
+  AnimSlideFromRightRoute({this.page})
       : super(
           pageBuilder: (BuildContext context, Animation<double> animation,
                   Animation<double> secondaryAnimation) =>
